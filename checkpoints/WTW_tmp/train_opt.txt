@@ -1,0 +1,59 @@
+----------------- Options ---------------
+                    alpha: 3                             
+               batch_size: 1                             	[default: 4]
+                    beta1: 0.5                           
+          checkpoints_dir: ./checkpoints                 
+           continue_train: False                         
+                 dataroot: /data/cjc/WTW/train/          	[default: None]
+             dataset_mode: GBTSR_fromjson                	[default: table]
+             dataset_name: WTW                           	[default: SciTSR]
+                   device: cuda                          
+              display_env: main                          
+             display_freq: 400                           
+               display_id: -1                            
+            display_ncols: 1                             
+             display_port: 8098                          
+           display_server: http://localhost              
+          display_winsize: 256                           
+                 dist_url: env://                        
+                    epoch: 0                             	[default: latest]
+              epoch_count: 0                             	[default: 1]
+                  gpu_ids: 0,1,2,3                       
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: True                          	[default: None]
+              load_height: 600                           	[default: 480]
+                load_iter: 0                             	[default: 0]
+               load_width: 600                           	[default: 480]
+                       lr: 0.0001                        
+           lr_decay_iters: 50                            
+                lr_policy: linear                        
+         max_dataset_size: inf                           
+            max_test_size: inf                           
+             max_val_size: inf                           
+                    model: tbrec                         	[default: table]
+                     name: WTW_tmp                       	[default: experiment_name]
+                    niter: 41                            	[default: 10]
+              niter_decay: 39                            	[default: 10]
+                  no_html: True                          	[default: False]
+                     norm: instance                      
+              num_classes: 2                             
+                 num_cols: 13                            
+        num_node_features: 12                            
+                 num_rows: 58                            
+        num_text_features: 256                           
+              num_threads: 1                             	[default: 4]
+                output_nc: 3                             
+                    phase: train                         
+               print_freq: 50                            	[default: 100]
+                rm_layers: row_cls,col_cls               	[default: ]
+             save_by_iter: False                         
+          save_epoch_freq: 5                             
+         save_latest_freq: 108                           	[default: 1000000]
+                   suffix:                               
+         update_html_freq: 1000                          
+                  verbose: False                         
+               vocab_size: 39                            
+               world_size: 4                             
+----------------- End -------------------

@@ -1,0 +1,279 @@
+WARNING:__main__:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+----------------- Options ---------------
+                    alpha: 3                             
+               batch_size: 1                             	[default: 4]
+                    beta1: 0.5                           
+          checkpoints_dir: ./checkpoints                 
+           continue_train: False                         
+                 dataroot: /data/cjc/WTW/train/          	[default: None]
+             dataset_mode: GBTSR_fromjson                	[default: table]
+             dataset_name: WTW                           	[default: SciTSR]
+                   device: cuda                          
+              display_env: main                          
+             display_freq: 400                           
+               display_id: -1                            
+            display_ncols: 1                             
+             display_port: 8098                          
+           display_server: http://localhost              
+          display_winsize: 256                           
+                 dist_url: env://                        
+                    epoch: 0                             	[default: latest]
+              epoch_count: 0                             	[default: 1]
+                  gpu_ids: 0,1,2,3                       
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: True                          	[default: None]
+              load_height: 600                           	[default: 480]
+                load_iter: 0                             	[default: 0]
+               load_width: 600                           	[default: 480]
+                       lr: 0.0001                        
+           lr_decay_iters: 50                            
+                lr_policy: linear                        
+         max_dataset_size: inf                           
+            max_test_size: inf                           
+             max_val_size: inf                           
+                    model: tbrec                         	[default: table]
+                     name: WTW_tmp                       	[default: experiment_name]
+                    niter: 41                            	[default: 10]
+              niter_decay: 39                            	[default: 10]
+                  no_html: True                          	[default: False]
+                     norm: instance                      
+              num_classes: 2                             
+                 num_cols: 13                            
+        num_node_features: 12                            
+                 num_rows: 58                            
+        num_text_features: 256                           
+              num_threads: 1                             	[default: 4]
+                output_nc: 3                             
+                    phase: train                         
+               print_freq: 50                            	[default: 100]
+                rm_layers: row_cls,col_cls               	[default: ]
+             save_by_iter: False                         
+          save_epoch_freq: 5                             
+         save_latest_freq: 108                           	[default: 1000000]
+                   suffix:                               
+         update_html_freq: 1000                          
+                  verbose: False                         
+               vocab_size: 39                            
+               world_size: 4                             
+----------------- End -------------------
+----------------- Options ---------------
+                    alpha: 3                             
+               batch_size: 1                             	[default: 4]
+                    beta1: 0.5                           
+          checkpoints_dir: ./checkpoints                 
+           continue_train: False                         
+                 dataroot: /data/cjc/WTW/train/          	[default: None]
+             dataset_mode: GBTSR_fromjson                	[default: table]
+             dataset_name: WTW                           	[default: SciTSR]
+                   device: cuda                          
+              display_env: main                          
+             display_freq: 400                           
+               display_id: -1                            
+            display_ncols: 1                             
+             display_port: 8098                          
+           display_server: http://localhost              
+          display_winsize: 256                           
+                 dist_url: env://                        
+                    epoch: 0                             	[default: latest]
+              epoch_count: 0                             	[default: 1]
+                  gpu_ids: 0,1,2,3                       
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: True                          	[default: None]
+              load_height: 600                           	[default: 480]
+                load_iter: 0                             	[default: 0]
+               load_width: 600                           	[default: 480]
+                       lr: 0.0001                        
+           lr_decay_iters: 50                            
+                lr_policy: linear                        
+         max_dataset_size: inf                           
+            max_test_size: inf                           
+             max_val_size: inf                           
+                    model: tbrec                         	[default: table]
+                     name: WTW_tmp                       	[default: experiment_name]
+                    niter: 41                            	[default: 10]
+              niter_decay: 39                            	[default: 10]
+                  no_html: True                          	[default: False]
+                     norm: instance                      
+              num_classes: 2                             
+                 num_cols: 13                            
+        num_node_features: 12                            
+                 num_rows: 58                            
+        num_text_features: 256                           
+              num_threads: 1                             	[default: 4]
+                output_nc: 3                             
+                    phase: train                         
+               print_freq: 50                            	[default: 100]
+                rm_layers: row_cls,col_cls               	[default: ]
+             save_by_iter: False                         
+          save_epoch_freq: 5                             
+         save_latest_freq: 108                           	[default: 1000000]
+                   suffix:                               
+         update_html_freq: 1000                          
+                  verbose: False                         
+               vocab_size: 39                            
+               world_size: 4                             
+----------------- End -------------------
+----------------- Options ---------------
+                    alpha: 3                             
+               batch_size: 1                             	[default: 4]
+                    beta1: 0.5                           
+          checkpoints_dir: ./checkpoints                 
+           continue_train: False                         
+                 dataroot: /data/cjc/WTW/train/          	[default: None]
+             dataset_mode: GBTSR_fromjson                	[default: table]
+             dataset_name: WTW                           	[default: SciTSR]
+                   device: cuda                          
+              display_env: main                          
+             display_freq: 400                           
+               display_id: -1                            
+            display_ncols: 1                             
+             display_port: 8098                          
+           display_server: http://localhost              
+          display_winsize: 256                           
+                 dist_url: env://                        
+                    epoch: 0                             	[default: latest]
+              epoch_count: 0                             	[default: 1]
+                  gpu_ids: 0,1,2,3                       
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: True                          	[default: None]
+              load_height: 600                           	[default: 480]
+                load_iter: 0                             	[default: 0]
+               load_width: 600                           	[default: 480]
+                       lr: 0.0001                        
+           lr_decay_iters: 50                            
+                lr_policy: linear                        
+         max_dataset_size: inf                           
+            max_test_size: inf                           
+             max_val_size: inf                           
+                    model: tbrec                         	[default: table]
+                     name: WTW_tmp                       	[default: experiment_name]
+                    niter: 41                            	[default: 10]
+              niter_decay: 39                            	[default: 10]
+                  no_html: True                          	[default: False]
+                     norm: instance                      
+              num_classes: 2                             
+                 num_cols: 13                            
+        num_node_features: 12                            
+                 num_rows: 58                            
+        num_text_features: 256                           
+              num_threads: 1                             	[default: 4]
+                output_nc: 3                             
+                    phase: train                         
+               print_freq: 50                            	[default: 100]
+                rm_layers: row_cls,col_cls               	[default: ]
+             save_by_iter: False                         
+          save_epoch_freq: 5                             
+         save_latest_freq: 108                           	[default: 1000000]
+                   suffix:                               
+         update_html_freq: 1000                          
+                  verbose: False                         
+               vocab_size: 39                            
+               world_size: 4                             
+----------------- End -------------------
+----------------- Options ---------------
+                    alpha: 3                             
+               batch_size: 1                             	[default: 4]
+                    beta1: 0.5                           
+          checkpoints_dir: ./checkpoints                 
+           continue_train: False                         
+                 dataroot: /data/cjc/WTW/train/          	[default: None]
+             dataset_mode: GBTSR_fromjson                	[default: table]
+             dataset_name: WTW                           	[default: SciTSR]
+                   device: cuda                          
+              display_env: main                          
+             display_freq: 400                           
+               display_id: -1                            
+            display_ncols: 1                             
+             display_port: 8098                          
+           display_server: http://localhost              
+          display_winsize: 256                           
+                 dist_url: env://                        
+                    epoch: 0                             	[default: latest]
+              epoch_count: 0                             	[default: 1]
+                  gpu_ids: 0,1,2,3                       
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: True                          	[default: None]
+              load_height: 600                           	[default: 480]
+                load_iter: 0                             	[default: 0]
+               load_width: 600                           	[default: 480]
+                       lr: 0.0001                        
+           lr_decay_iters: 50                            
+                lr_policy: linear                        
+         max_dataset_size: inf                           
+            max_test_size: inf                           
+             max_val_size: inf                           
+                    model: tbrec                         	[default: table]
+                     name: WTW_tmp                       	[default: experiment_name]
+                    niter: 41                            	[default: 10]
+              niter_decay: 39                            	[default: 10]
+                  no_html: True                          	[default: False]
+                     norm: instance                      
+              num_classes: 2                             
+                 num_cols: 13                            
+        num_node_features: 12                            
+                 num_rows: 58                            
+        num_text_features: 256                           
+              num_threads: 1                             	[default: 4]
+                output_nc: 3                             
+                    phase: train                         
+               print_freq: 50                            	[default: 100]
+                rm_layers: row_cls,col_cls               	[default: ]
+             save_by_iter: False                         
+          save_epoch_freq: 5                             
+         save_latest_freq: 108                           	[default: 1000000]
+                   suffix:                               
+         update_html_freq: 1000                          
+                  verbose: False                         
+               vocab_size: 39                            
+               world_size: 4                             
+----------------- End -------------------
+| distributed init (rank 3): env://
+| distributed init (rank 2): env://
+| distributed init (rank 1): env://
+| distributed init (rank 0): env://
+dataset [GBTSRFromjsonDataset] was created
+The number of training images = 10929. Trainset: /data/cjc/WTW/train/
+/home/cjc/anaconda3/envs/GBTSR/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/cjc/anaconda3/envs/GBTSR/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/cjc/anaconda3/envs/GBTSR/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/cjc/anaconda3/envs/GBTSR/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/cjc/anaconda3/envs/GBTSR/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/cjc/anaconda3/envs/GBTSR/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/cjc/anaconda3/envs/GBTSR/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/cjc/anaconda3/envs/GBTSR/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+initialize network with normal
+model [TbRecModel] was created
+---------- Networks initialized -------------
+[Network Backbone] Total number of parameters : 28.571 M
+[Network CellLlocPre] Total number of parameters : 11.635 M
+-----------------------------------------------
+/home/cjc/anaconda3/envs/GBTSR/lib/python3.7/site-packages/torchvision/transforms/transforms.py:330: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/cjc/anaconda3/envs/GBTSR/lib/python3.7/site-packages/torchvision/transforms/transforms.py:330: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/cjc/anaconda3/envs/GBTSR/lib/python3.7/site-packages/torchvision/transforms/transforms.py:330: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/cjc/anaconda3/envs/GBTSR/lib/python3.7/site-packages/torchvision/transforms/transforms.py:330: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+(epoch: 0, iters: 100) L_row: 0.84088 L_col: 1.19559 L_all: 6.46414 
+(epoch: 0, iters: 200) L_row: 0.76508 L_col: 0.94030 L_all: 5.29134 
+(epoch: 0, iters: 300) L_row: 0.74094 L_col: 0.85681 L_all: 4.90912 
